@@ -1,8 +1,26 @@
-h1 {
+  body {
+    background-color: lightblue;
+  }
+  
+  h1 {
     color: navy;
     margin-left: 20px;
-}
+  }
 
-img {
-    float: left;
-}
+  img{
+    float: right;
+  }
+  
+  div {
+    height: 250px;
+    width: 250px; 
+    background: pink;
+    display: inline - block ; 
+    margin: 30px 50px; 
+    line-height: 250px; 
+    border: 10px solid darkblue;
+  }
+
+  .rounded-border-corners-element{
+    border-radius: 100px;
+  }
